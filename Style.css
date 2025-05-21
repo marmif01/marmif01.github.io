@@ -2,8 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
   }
   
+  #home {
+    height: 80vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .bio-container {
     display: flex;
     align-items: flex-start;
@@ -12,26 +20,29 @@
   }
   
   .bio-photo {
-    width: 200px;
+    width: 300px;
     height: auto;
+   
    
   }
   
   .bio-text {
     flex: 1;
     min-width: 250px;
+    font-size: 1.2rem;
   }
 
   body {
-    font-family: 'Arial', sans-serif;
+    font-family:'Courier New', Courier, monospace;
     line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: white;
+    color: black;
     text-align: justify;
+    
   }
   
   header {
-    background-color: #222;
+    background-color: black;
     padding: 1rem 2rem;
   }
   
@@ -39,6 +50,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
   }
   
   .logo a {
@@ -51,6 +63,7 @@
     list-style: none;
     display: flex;
     gap: 1.5rem;
+    
   }
   
   .nav-links a {
@@ -60,6 +73,7 @@
   
   .nav-links a:hover {
     color: #f39c12;
+    
   }
   
   .section {
@@ -88,11 +102,16 @@
   
   .button-container {
     text-align: center;
+    margin-top: 1rem;
  
   }
 
-  .btn {
+  .button-container h4 {
+    margin-bottom: 1rem; 
+  }
 
+
+  .btn {
     display: inline-block;
     background-color: black;
     color: white;
@@ -107,6 +126,12 @@
     background-color: #e67e22;
   }
 
-footer {
-  text-align: center;
+
+.footer-bar {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 0.9rem;
+    font-weight: bold;
   }
