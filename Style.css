@@ -15,12 +15,12 @@
   .bio-container {
     display: flex;
     align-items: flex-start;
-    gap: 2px;
+    gap: 32px;
     flex-wrap: wrap;
   }
   
   .bio-photo {
-    margin-top: 1px;
+    margin-top: 16px;
     width: 300px;
     height: auto;
    
@@ -30,11 +30,11 @@
   .bio-text {
     flex: 1;
     min-width: 250px;
-    font-size: 1.2px;
+    font-size: 19.2px;
   }
 
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     line-height: 1.6;
     background-color: white;
     color: black;
@@ -44,7 +44,7 @@
   
   header {
     background-color: black;
-    padding: 3px;
+    padding: 16px 32px;
   }
   
   .navbar {
@@ -56,31 +56,36 @@
   
   .logo a {
     color: white;
-    font-size: 1.5px;
+    font-size: 24px;
     text-decoration: none;
   }
   
   .nav-links {
     list-style: none;
     display: flex;
-    gap: 1.5px;
-    color: white;
+    gap: 24px;
     
   }
+  
+  .nav-links a {
+    color: white;
+ 
+  }
+  
   .nav-links a:hover {
-    color: blue;
+    color: orange;
     
   }
   
   .section {
-    padding: 6px;
+    padding: 64px 32px;
     max-width: 900px;
     margin: auto;
   }
   
   
   video {
-    margin: auto;
+    margin: 24px auto;
     border-radius: 10px;
     max-width: 100%;
   }
@@ -88,22 +93,22 @@
   .banner {
     background-color: black;  
     color: white;
-    padding: 3px;
+    padding: 16px 32px;
     max-width: 1000px;
-    margin:  2px; 
+    margin: 0 auto 32px; 
     text-align: center;
     font-weight: bold;
-    font-size: 1px;
+    font-size: 1rem;
   } 
   
   .button-container {
     text-align: center;
-    margin-top: 1px;
+    margin-top: 16px;
  
   }
 
   .button-container h4 {
-    margin-bottom: 1px; 
+    margin-bottom: 16px; 
   }
 
 
@@ -118,14 +123,16 @@
 
   }
   
- 
+  .btn:hover {
+    background-color: #e67e22;
+  }
 
 
 .footer-bar {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 3px;
-    font-size: 0.9px;
+    padding: 16px 32px;
+    font-size: 14.4px;
     font-weight: bold;
   }
