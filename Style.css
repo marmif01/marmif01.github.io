@@ -6,7 +6,7 @@
   }
   
   #about {
-    height: 80vh; 
+    height: 80px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,12 +15,12 @@
   .bio-container {
     display: flex;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 2px;
     flex-wrap: wrap;
   }
   
   .bio-photo {
-    margin-top: 1rem;
+    margin-top: 1px;
     width: 300px;
     height: auto;
    
@@ -30,7 +30,7 @@
   .bio-text {
     flex: 1;
     min-width: 250px;
-    font-size: 1.2rem;
+    font-size: 1.2px;
   }
 
   body {
@@ -44,7 +44,7 @@
   
   header {
     background-color: black;
-    padding: 1rem 2rem;
+    padding: 3px;
   }
   
   .navbar {
@@ -55,37 +55,32 @@
   }
   
   .logo a {
-    color: #fff;
-    font-size: 1.5rem;
+    color: white;
+    font-size: 1.5px;
     text-decoration: none;
   }
   
   .nav-links {
     list-style: none;
     display: flex;
-    gap: 1.5rem;
+    gap: 1.5px;
+    color: white;
     
   }
-  
-  .nav-links a {
-    color: #fff;
- 
-  }
-  
   .nav-links a:hover {
-    color: #f39c12;
+    color: orange;
     
   }
   
   .section {
-    padding: 4rem 2rem;
+    padding: 6px;
     max-width: 900px;
     margin: auto;
   }
   
   
   video {
-    margin: 1.5rem auto;
+    margin: auto;
     border-radius: 10px;
     max-width: 100%;
   }
@@ -93,22 +88,22 @@
   .banner {
     background-color: black;  
     color: white;
-    padding: 1rem 2rem;
+    padding: 3px;
     max-width: 1000px;
-    margin: 0 auto 2rem; 
+    margin:  2px; 
     text-align: center;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1px;
   } 
   
   .button-container {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 1px;
  
   }
 
   .button-container h4 {
-    margin-bottom: 1rem; 
+    margin-bottom: 1px; 
   }
 
 
@@ -124,7 +119,7 @@
   }
   
   .btn:hover {
-    background-color: #e67e22;
+    background-color: blue;
   }
 
 
@@ -132,7 +127,7 @@
     background-color: black;
     color: white;
     text-align: center;
-    padding: 1rem 2rem;
-    font-size: 0.9rem;
+    padding: 3px;
+    font-size: 0.9px;
     font-weight: bold;
   }
